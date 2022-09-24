@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>farman fitness</title>
+  </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Baloo+Paaji+2&family=Murecho:wght@100;200&family=Permanent+Marker&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+         body {
+                color: aliceblue;
+              margin: 0px;
+              padding: 0px;
+              font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+              background: url("img/img12.jpg");
+             
+              }
+            .left {
+                position: absolute;
+                left: 40px;
+                top: 10px;
+                margin top: 20px;
+              display: inline-block;
+              /* border: 2px solid red; */
+              font-family: 'Abril Fatface', cursive;
+        font-family: 'Baloo Paaji 2', cursive;
+        font-family: 'Murecho', sans-serif;
+        font-family: 'Permanent Marker', cursive;
+            }
+            .mid {
+                display: block;
+                width: 40%;
+                /* height: 90px; */
+                /* margin-top: 10px ; */
+                margin: 20px 400px;
+              /* border: 2px solid rgb(199, 240, 20); */
+              font-family: 'Abril Fatface', cursive;
+    font-family: 'Baloo Paaji 2', cursive;
+    font-family: 'Murecho', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+            }
+            .right {
+                position: absolute;
+                right: 10px;
+                top: 10px;
+                margin-top: 20px;
+              display: inline-block;
+              /* border: 2px solid yellow; */
+            }
+            .navbar li a{
+                color: aliceblue;
+                text-decoration: none;
+                padding: 5px;
+                transition: 0.5s;
+            }
+            .navbar li{
+                display: inline-block;
+                font-size: 15px;
+                margin: 40px;
+            }
+            .navbar{
+                display: inline-block;
+            }
+            .navbar li a:hover{
+                /* text-decoration: underline; */
+                color: orangered;
+                /* background-color: orangered; */
+                /* font-size: 20px; */
+            }
+            .left img{
+                margin-left: 17px;
+                width: 100px;
+                height: 100px;
+                filter: invert(100%)
+            }
+            .btn{
+                margin: 0px 8px;
+                background-color: black;
+                color: aliceblue;
+                padding: 3px 4px;
+                border: 2px solid gray;
+                border-radius: 10px;
+                cursor: pointer;
+                font-family: 'Abril Fatface', cursive;
+                font-family: 'Baloo Paaji 2', cursive;
+                font-family: 'Murecho', sans-serif;
+                font-family: 'Permanent Marker', cursive;
+                transition: 0.5s;
+            }
+            .btn:hover{
+                background-color: gray
+            }
+            .container{
+              /* border: 3px solid rgb(17, 53, 211); */
+              /* border-radius: 15px; */
+              /* margin-top: 132px; */
+              /* width: 25%; */
+              /* height: 50%; */
+              /* margin-left: 173px; */
+              /* margin-top: 149px; */
+
+            }
+            .form-group input{
+                font-size: 14px;
+                text-align: center;
+                display: block;
+                width: 380px;
+                padding: 4px;
+                border:2px solid black ;
+                margin: 6px auto;
+                border-radius: 8px;
+            }
+            #sub{
+              display: block;
+              margin: 4px auto;
+              width: 386px;
+            }.container h1{
+              /* border: 2px solid red; */
+              text-align: center;
+              font-family: 'Abril Fatface', cursive;
+              font-family: 'Baloo Paaji 2', cursive;
+              font-family: 'Lobster', cursive;
+              font-family: 'Murecho', sans-serif;
+              font-family: 'Permanent Marker', cursive;
+            }
+            .form-group :hover{
+              background-color: orangered;
+            }
+            #head{
+              color: orangered;
+            }
+            .contb{
+              display: flex;
+              /* border: 2px solid green; */
+              width: 50%;
+              justify-content: space-between;
+              /* height: 500px; */
+              margin-top: 200px;
+              margin-left: 100px;
+
+            }
+            .qoutation{
+              /* border: 2px solid red; */
+              /* width: 15%; */
+              margin-left: 200px;
+            }
+            .MyName{
+              transition: 0.5s;
+            }
+            .MyName:hover{
+              font-size: 20px;
+                color: orangered;
+            }
+  </style>
+  <body>
+    
+    <header class="header">
+      <div class="left">
+        <img src="img/logo5.png" alt="" />
+        <div class="MyName">Farman's Fitness</div>
+      </div>
+      <div class="mid">
+        <ul class="navbar">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="right">
+        <button class="btn">call us now</button>
+        <button class="btn">Email Us</button>
+      </div>
+    </header>
+    <div class="contb">
+      <div class="container">
+        <h1 id="head">WellCome to Farman's gym</h1>
+        <form action="noaction.php">
+          <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Name" />
+          </div>
+          <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Age" />
+          </div>
+          <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Number" />
+          </div>
+          <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Locality" />
+          </div>
+          <div class="form-group">
+            <input type="text" name="" placeholder="Enter yourhttps://www.youtube.com/watch?v=XFuYGo_k3II Email Id" />
+          </div>
+          <button id="sub" class="btn">submit</button>
+        </form>
+      </div>
+      <div class="qoutation">
+        <h1>
+          <b>
+            BE <span style="color: orangered"> STRONG</span> <br /><span
+              style="color: orangered"
+              >TRAINING
+            </span>
+            HARD
+          </b>
+        </h1>
+      </div>
+    </div>
+
+  </body>
+</html>
